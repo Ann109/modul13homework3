@@ -15,7 +15,6 @@ async def start_message(message: Message):
 @dp.message(Command('/start'))
 async def all_messages(message: Message):
         await message.answer('Привет! Я бот помогающий твоему здоровью.')
-        print('Привет! Я бот помогающий твоему здоровью.')
 
 
 async def main():
